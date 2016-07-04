@@ -1,6 +1,8 @@
 # Ion-Auth-HMVC-Module
 Thanks to Ben Edmuds for creating this awesome library. Let's make it work on WireDesignz HMVC.
 
+Version: Jun 2 2016, Commit: 90cac6ffda79e60968f14024ee27de1ce322155a
+
 All credit to http://benedmunds.com/ion_auth/
 
 --
