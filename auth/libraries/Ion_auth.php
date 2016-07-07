@@ -58,14 +58,14 @@ class Ion_auth
 	 */
 	public function __construct()
 	{
-		$this->load->config('ion_auth', TRUE);
+		$this->load->config('auth/ion_auth', TRUE);
 		$this->load->library(array('email'));
 		$this->lang->load('ion_auth');
 		$this->load->helper(array('cookie', 'language','url'));
 
 		$this->load->library('session');
 
-		$this->load->model('ion_auth_model');
+		$this->load->model('auth/ion_auth_model');
 
 		$this->_cache_user_in_group =& $this->ion_auth_model->_cache_user_in_group;
 
