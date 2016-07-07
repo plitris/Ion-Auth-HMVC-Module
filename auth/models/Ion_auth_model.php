@@ -244,7 +244,7 @@ class Ion_auth_model extends CI_Model
 			}
 
 			$params['salt_prefix'] = $this->config->item('salt_prefix', 'ion_auth');
-			$this->load->library('bcrypt',$params);
+			$this->load->library('auth/bcrypt',$params);
 		}
 
 		$this->trigger_events('model_constructor');
